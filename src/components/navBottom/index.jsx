@@ -8,7 +8,7 @@ class NavBottom extends React.Component {
 
     
     showLoginBox() {
-        
+
     }
 
 

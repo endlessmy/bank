@@ -1,0 +1,90 @@
+.menu {
+    height: 70px;
+    background: #242424;
+    border-bottom: 1px solid #000;
+    .menu-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1100px;
+        height: 100%;
+        margin: 0 auto;
+        .menu-left {
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 30px;
+                height: 30px;
+                border-radius: 30%;
+            }
+            .title {
+                margin: 0 20px 0 10px;
+                color: #ffffff;
+                font-size: 20px;
+            }
+            .menu-list {
+                display: flex;
+                .menu-item {
+                    height: 70px;
+                    line-height: 70px;
+                    list-style: none;
+                    .menu-link {
+                        display: block;
+                        padding: 0 19px;
+                        font-size: 14px;
+                        color: #ccc;
+                    }
+                    &:hover {
+                        background-color: #000000;
+                        .menu-link {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .menu-right {
+            display: flex;
+            align-items: center;
+            .search {
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                width: 158px;
+                height: 32px;
+                background: #ffffff;
+                border-radius: 20px;
+                .search-img {
+                    width: 16px;
+                    height: 16px;
+                }
+                .search-input {
+                    margin-left: 5px;
+                    width: 120px;
+                    border: none;
+                }
+            }
+            .create-center {
+                margin-left: 10px;
+                color: #ccc;
+                padding: 7px 10px;
+                border: 1px solid #4F4F4F;
+                border-radius: 20px;
+                &:hover {
+                    color: #ffffff;
+                    border-color: #ffffff;
+                }
+            }
+            .login {
+                margin-left: 20px;
+                color: #787878;
+                cursor: pointer;
+                &:hover {
+                    color: #999;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
